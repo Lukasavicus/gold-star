@@ -1,0 +1,50 @@
+Lista de Produtos:
+
+	Chaves:
+		Simples;
+		Personalizada (estampada);
+		Antigas;
+		Diversas (armários, gavetas, etc.);
+		Tetra;
+
+		Automotiva;
+		Automoiva com chip;
+		Automotiva - Tipo Canivete;
+		Pantográfica;
+
+		Alarmes;
+
+		Cadeados;
+
+		Fechadura;
+
+		Chaveiros diversos;
+
+	Carimbos:
+		Madeira;
+		Automáticos;
+		De bolso;
+		Plástico;
+
+		Exclusivos (CNPJ, Formulário, Visto, Pago, Professor, Médico, Advogado, Datador, Numerador);
+
+	Papelaria:
+		Papéis, Canetas, Lápis, etc.
+
+	Eletrônicos:
+		Fones e Caixas de Som;
+		Mouses e Teclados;
+		Pilhas e baterias;
+		Cartão de Memória;
+		Cabos;
+		Acessórios;
+
+
+	Serviços:
+		Afiação de facas, canivetes, tesouras e alicates;
+		Abertura de portas (residencial, automóvel) - Socorro Chaveiro;
+		Cópia de chaves;
+		Troca de segredo (miolos e cofres);
+		Impressão
+		Xerox
+		Scanner

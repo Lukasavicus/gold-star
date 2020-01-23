@@ -1,0 +1,110 @@
+/* .sidebar {
+    width:200px;
+    height:100%;
+    background-color: white;
+    display: none;
+} */
+
+/* The sidebar menu */
+.sidebar {
+    /*height: 100px;*/ /* Full-height: remove this if you want "auto" height */
+    /*width: 100%;*/ /* Set the width of the sidebar */
+    /*position: fixed;*/ /* Fixed Sidebar (stay in place on scroll) */
+
+    width: fit-content;
+    height: fit-content;
+
+    background-color: white;
+    box-shadow: rgba(50, 50, 50, 0.5);
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* open more slowly */
+    border-right: solid 1px lightgray;
+    border-radius: 10px;
+}
+
+/* The navigation menu links */
+.sidebar a {
+    padding: 2px;
+    display: inline-block;
+    transition: 0.3s;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.sidebar img {
+    height: 45px;
+    width: 45px;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+.sidebar a:hover {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 50, 0.5);
+    z-index: 1; /* Stay on top */
+}
+
+.sidebar img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+}
+
+  /* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+}
+
+.products {
+    margin: auto 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    width:180px;
+    height: 270px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin:20px;
+}
+
+.card img {
+    width: 120px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.card .content {
+    padding-top: 15px;
+    text-align: left;
+    border-top: solid 1px lightgray;
+}
+
+.card .card-title {
+    font-size: 20px;
+    color: #818181;
+}
+
+.card .card-text {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp */

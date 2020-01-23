@@ -1,0 +1,42 @@
+TODO:
+
+	Meta-Geral:
+		Criar esquema de curadoria? (Criar página de admin com possibilidade de trocar os conteúdos (textos e imagens) e crud de produtos);
+
+		Começar a desenhar as APIs:
+			-> Produtos;
+			-> Clientes;
+			-> Parceiros;
+			-> Destaques;
+			-> Ofertas;
+
+	Geral:
+		Breadcrumbs?
+		Criar mecanismo de pesquisa de cliente (pop up no canto inferior direito com alguma pesquisa sobre os produtos desejados e etc.).
+		Adicionar tags de rastreamento do Google Analytics.
+		Criar versão mobile.
+
+		Criar blog?
+		Criar mail-list?
+
+
+	HOME:
+		Fazer seção com os produtos em destaque; (Cialdini)
+		Fazer seção com os produtos em promoção;
+		Fazer seção com os clientes; (Cialdini)
+		Fazer seção com os parceiros; (Cialdini)
+
+	PRODUTOS:
+		Fazer seção para produto destaque (uma parte dentro da própria página que expande (com efeito) e exibe algumas fotos de um determinado produto e altera os parâmetros da URL (para poder serem monitorados via GET e via Google Analytics) e com efeito de lupa sobre a imagem);
+		(se mobile) Usar esquema de carrousel para produtos.
+
+		Fazer seções para cada tipo de produto;
+
+		Animar página com filtros e
+		Criar mecanismo de busca pelo nome;
+
+	CONTATO:
+		Criar página;
+		Criar formulário para mandar email;
+		Adicionar "esquema" para entrar em contato via WhatsApp;
+		(se mobile) Adicionar "esquema" para entrar em contato via Ligação;

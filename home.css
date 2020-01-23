@@ -1,0 +1,73 @@
+main {
+	width: 96%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+section {
+	text-align: center;
+}
+
+.menu-products {
+	margin: 0 auto;	
+}
+
+.menu-products div {
+	margin: 20px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	height: 90px;
+	width:90px;
+}
+
+.menu-products a {
+	text-decoration: none;
+}
+
+.menu-products img {
+	width: 60px;
+	height: 60px;
+
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+.menu-products img:hover {
+	width: 70px;
+	height: 70px;
+
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+}
+
+.menu-products span {
+	display: block;
+
+}
+
+.about-us {
+	margin: 0 auto;
+	width: 600px;
+}
+
+.about-us img {
+	width: 120px;
+	height: 120px;
+	margin: 20px;
+	float: left;
+	vertical-align: top;
+}
+
+.about-us p {
+	/*margin: 20px;*/
+	padding: 20px;
+	vertical-align: left;
+	line-height: 20px;
+}
+
+.location {
+	clear:left;
+	display: block;
+}

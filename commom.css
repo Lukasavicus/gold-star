@@ -1,0 +1,87 @@
+.background {
+	background-image: radial-gradient(rgba(54, 100, 217, 1) 20%, transparent 20%), radial-gradient(rgba(230, 205, 44, 1) 20%, transparent 20%);
+	background-repeat: repeat
+	background-position: 0 0, 50px 50px;
+	background-color: #f6f6f6;
+	background-size: 5px 5px;
+	height: 100%;
+	width: 100%;
+}
+
+header{
+	top:fixed;
+	/*height: 140px;*/
+	background-color: rgba(200, 200, 200, 0.7);
+	border-radius: 0 0 5px 5px;
+}
+
+.minimized-header {
+	transition: 1s all;
+}
+
+header img:hover {
+	transform: rotate(630deg)  scale(0.5, 0.5);
+}
+
+.box {
+	margin: 0 auto;
+	position: relative;
+	width: 940px;
+}
+
+.main-logo {
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/**/
+
+footer {
+	display: block;
+	height: 120px;
+	width: 100%;
+	text-align: center;
+}
+
+footer p {
+	padding-bottom: 20px;
+	color: white;
+}
+
+.background-footer {
+	/* background-repeat: repeat */
+	background: url("imgs/bg.jpg");
+	/*position: relative;*/
+}
+
+.layer {
+	background-color: rgba(248, 247, 216, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.image-footer {
+	transform: rotate(270deg);
+}
+
+/* font: montserrat; */
